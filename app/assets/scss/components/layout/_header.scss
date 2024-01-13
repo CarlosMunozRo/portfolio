@@ -1,3 +1,12 @@
 .header{
-    background-color: rgb(var(--header-background-rgb));
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: background-color 0.2s ease-in-out;
+
+    &.header--scroll{
+        background-color: rgb(var(--header-background-rgb));
+    }
 }
