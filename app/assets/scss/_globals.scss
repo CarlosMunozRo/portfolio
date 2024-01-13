@@ -12,3 +12,73 @@ h1{
   font-weight: 700;
   margin-bottom: 1rem;
 }
+
+.text-effect{
+  font-kerning: none;
+
+  .word{
+    display: inline-block;
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform: translate(0px, 50px);
+    opacity: 0;
+  }
+
+  .line{
+    overflow: hidden;
+  }
+}
+
+
+a.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border-radius: 23.5px;
+  overflow: hidden;
+  text-decoration: none;
+  background: linear-gradient(to right, #4f46e5, #818cf8);
+  margin-right: 20px;
+}
+
+.button__wrapper {
+  position: relatife;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 45px;
+  border-radius: 22.5px;
+  background: rgb(var(--background-rgb));
+  padding: 0px 50px
+}
+
+a.button:hover .button__text {
+  color: white;
+}
+
+.button__text {
+  position: relative;
+  z-index: 2;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #818cf8;
+  transition: 300ms ease;
+}
+
+.button__spotlight {
+  position: absolute;
+  z-index: 1;
+  height: 10px;
+  width: 10px;
+  opacity: 1;
+  border-radius: 50%;
+  background: linear-gradient(to right, #4f46e5, #818cf8);
+  inset: 0;
+  top: 50%;
+  transform: scale(0);
+}
