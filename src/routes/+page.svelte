@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<div class="container mx-auto">
+    <h1>Hey, soy Carlos</h1>
+    <p>
+        Soy un desarrollador de software. En Barcelona, España. Me encanta aprender y compartir conocimiento.
+    </p>
+</div>
